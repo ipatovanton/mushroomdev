@@ -1,0 +1,126 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@keyframes invert {
+	from {}
+  to { filter: invert(100%); }
+}
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  height: 100%;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  color: #fff;
+  background: #111111;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 15px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: middle;
+  outline: 0;
+  border-radius: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.btn-s {
+  background: #333;
+  color: #fff;
+  border: 1px solid #333; 
+}
+.btn-s:focus,
+.btn-s:active,
+.btn-s:hover {
+  background: #252525;
+  color: #fff;
+  border: 1px solid #252525;
+}
+.container {
+  max-width: 769px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.nav {
+	display: flex;
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+.flex {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.flex div {
+	width: 100%;
+}
+.line-20 {
+	margin: 20px;
+}
+.title {
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.mushroom img {
+	animation: invert 420ms 1;
+	animation-delay: 4200ms;
+}
+.mobile {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .mushroom img {
+    max-width: 300px;
+  }
+  .mushroom,
+  .title,
+  .description,
+  .mobile {
+    text-align: center;
+  }
+}

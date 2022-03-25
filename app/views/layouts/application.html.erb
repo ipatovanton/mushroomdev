@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MushroomDev</title>
+    <meta name="description" content="Создаем уникальные сервисы для вас и ваших клиентов." />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+    <meta property="og:title" content="MushroomDev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:description" content="Создаем уникальные сервисы для вас и ваших клиентов." />
+    <meta property="og:site_name" content="MushroomDev" />
+    <meta property="og:image" content="<%= image_url 'mushroom-meta.png' %>" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MushroomDev" />
+    <meta name="twitter:description" content="Создаем уникальные сервисы для вас и ваших клиентов." />
+    <meta name="twitter:image" content="<%= image_url 'mushroom-meta.png' %>" />
+
+    <%= favicon_link_tag 'favicon.ico' %>
+    <%= favicon_link_tag 'apple-touch-icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');</style> 
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
