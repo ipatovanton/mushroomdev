@@ -23,8 +23,8 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 1.4;
-  color: #fff;
-  background: #111111;
+  color: #222;
+  background: #ffba00;
   height: 100%;
 }
 
@@ -52,16 +52,16 @@ img {
           user-select: none;
 }
 .btn-s {
-  background: #333;
+  background: #252525;
   color: #fff;
-  border: 1px solid #333; 
+  border: 1px solid #252525; 
 }
 .btn-s:focus,
 .btn-s:active,
 .btn-s:hover {
-  background: #252525;
+  background: #333;
   color: #fff;
-  border: 1px solid #252525;
+  border: 1px solid #333;
 }
 .container {
   max-width: 769px;
@@ -97,7 +97,7 @@ img {
 .description {
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
+  color: #222;
   margin-bottom: 5px;
 }
 .mushroom img {
@@ -117,6 +117,7 @@ img {
   }
   .mushroom img {
     max-width: 300px;
+    margin-top: 20px;
   }
   .mushroom,
   .title,
