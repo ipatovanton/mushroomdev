@@ -92,12 +92,13 @@ img {
 	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 .description {
   font-size: 18px;
   font-weight: 500;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .mushroom img {
 	animation: invert 420ms 1;
