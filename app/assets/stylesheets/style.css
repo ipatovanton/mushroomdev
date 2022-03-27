@@ -81,7 +81,7 @@ img {
   position: relative;
 	display: flex;
 	align-items: center;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .flex div {
 	width: 100%;
