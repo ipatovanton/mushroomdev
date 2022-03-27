@@ -65,13 +65,13 @@ img {
 .container {
   max-width: 769px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 40px 20px;
 }
 .flex {
   position: relative;
 	display: flex;
 	align-items: center;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .flex div {
 	width: 100%;
@@ -79,6 +79,7 @@ img {
 .title {
 	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
+  line-height: 1.4;
   font-weight: 700;
 }
 .description {
@@ -96,6 +97,9 @@ img {
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
 .energy {
   display: flex;
   align-items: center;
@@ -109,6 +113,9 @@ img {
   border: 1px dashed #222;
   margin: 0 20px;
 }
+.blue {
+  color: #007fff;
+}
 @media (max-width: 600px) {
   .flex {
     flex-direction: column;
@@ -116,7 +123,7 @@ img {
   }
   .mushroom img {
     max-width: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .center-mobile {
     text-align: center;
