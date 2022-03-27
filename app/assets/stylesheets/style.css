@@ -97,12 +97,11 @@ img {
 .description {
   font-size: 22px;
   font-weight: 500;
-  color: #252525;
+  color: #333;
 }
 .description-bold {
   font-size: 22px;
   font-weight: 700;
-  color: #252525;
 }
 .mushroom img {
 	animation: invert 420ms 1;
