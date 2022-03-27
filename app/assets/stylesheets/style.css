@@ -51,32 +51,22 @@ img {
           user-select: none;
 }
 .btn-s {
-  background: #252525;
-  color: #fff;
-  border: 1px solid #252525; 
+  background: #fff;
+  color: #222;
+  border: 2px solid #222; 
 }
 .btn-s:focus,
 .btn-s:active,
 .btn-s:hover {
-  background: #333;
+  background: #222;
   color: #fff;
-  border: 1px solid #333;
+  border: 2px solid #222;
 }
 .container {
   max-width: 769px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
 }
-.nav {
-	display: flex;
-	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 700;
-	align-items: center  ;
-	justify-content: space-between;
-	margin-bottom: 60px;
-}
-
 .flex {
   position: relative;
 	display: flex;
@@ -85,9 +75,6 @@ img {
 }
 .flex div {
 	width: 100%;
-}
-.flex-center {
-  text-align: center;
 }
 .title {
 	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -105,13 +92,10 @@ img {
 }
 .mushroom img {
 	animation: invert 420ms 1;
-	animation-delay: 4200ms;
 }
-
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
-
 .energy {
   display: flex;
   align-items: center;
@@ -126,10 +110,6 @@ img {
   margin: 0 20px;
 }
 @media (max-width: 600px) {
-  .nav {
-    justify-content: center;
-    margin-bottom: 30px;
-  }
   .flex {
     flex-direction: column;
     justify-content: center;
