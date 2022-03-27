@@ -73,10 +73,11 @@ img {
 	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	align-items: center;
+	align-items: center  ;
 	justify-content: space-between;
 	margin-bottom: 60px;
 }
+
 .flex {
 	display: flex;
 	align-items: center;
@@ -92,37 +93,37 @@ img {
 	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 .description {
   font-size: 18px;
   font-weight: 500;
   color: #222;
-  margin-bottom: 5px;
 }
 .mushroom img {
 	animation: invert 420ms 1;
 	animation-delay: 4200ms;
 }
-.mobile {
-  margin-top: 20px;
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
   .nav {
     justify-content: center;
+    margin-bottom: 30px;
   }
   .flex {
     flex-direction: column;
   }
   .mushroom img {
     max-width: 300px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .mushroom,
   .title,
   .description,
-  .mobile {
+  .center-mobile {
     text-align: center;
   }
 }
