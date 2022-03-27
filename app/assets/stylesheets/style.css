@@ -71,7 +71,7 @@ img {
   position: relative;
 	display: flex;
 	align-items: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 .flex div {
 	width: 100%;
@@ -109,14 +109,12 @@ img {
   max-width: 40px;
 }
 .line {
-  width: 100%;
-  border: 1px dashed #222;
-  margin: 0 20px;
-}
-.blue {
-  color: #007fff;
+  max-width: 20px;
 }
 @media (max-width: 600px) {
+  .line {
+    display: none;
+  }
   .flex {
     flex-direction: column;
     justify-content: center;
